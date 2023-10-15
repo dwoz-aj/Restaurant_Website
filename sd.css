@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    overflow-x: none;
+    background-color: #e2e5e8;
+    background-image: linear-gradient(98deg, #e2e5e8 0%, #ffffff 100%);
+
+}
+
+.navContainer{
+    width: 100vw;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+nav{
+    width: 100%;
+}
+#navList{
+    width: 100%;
+    padding: 15px;
+    list-style: none;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#navLogo{
+    font-size: 2.8rem;
+    color: azure;
+    position:relative;
+    left:50px;
+}
+
+a{
+    text-decoration: none;
+    color: azure;
+}
+#navItems{
+    display: flex;
+    gap: 40px;   
+}
+.footerBox{
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    text-align:center;
+    width:100%;
+    min-height:40px;
+    padding-top:10px;
+}
+.footerBox p{
+    color:azure;
+    font-size: 20px;
+}
+.contentBox{
+    width:75%;
+    margin:auto;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    /* position:relative;
+    top:10px; */
+    gap:100px;
+    box-shadow: 40px 0px 20px rgb(4, 0, 4);
+}
+.item{
+    display:flex;
+    justify-content: space-around;
+}
+.rightBox img{
+    border-radius: 10px;
+    transition-duration: 1s;
+    transition-delay: 20ms;
+    transition-property: all;
+    transition-timing-function: linear;
+}
+.rightBox img:hover{
+    transform: scale(1.1);
+}
+.leftBox{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+#suck{
+    font-size: 40px;
+    font-style: bold;
+    color:#bd15e2;
+    font-family: cursive;
+}
+#ingBox{
+    font-size: 22px;
+    color: #4158D0;
+}
+#outBox{
+    font-size: 23px;
+    color: #4158D0;
+}
